@@ -1,0 +1,51 @@
+.wallet {
+  .goback {
+    display: flex;
+    position: relative;
+    width: 250px;
+    border: none;
+    background-color: #fff;
+    color: #04004d;
+    margin-bottom: 30px;
+    i {
+      margin-left: 5px;
+      position: absolute;
+      top: 3px;
+      font-size: 25px;
+    }
+    h4 {
+      margin-left: 25px;
+      color: #04004d;
+    }
+  }
+  .container {
+    h5 {
+      color: #004dff;
+    }
+    button {
+      width: 100%;
+    }
+    .list {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 10px;
+      margin-bottom: 10px;
+      .item {
+        background: #e5e5e5;
+        width: 90%;
+        .number {
+          background: #bbcffb;
+          color: #004dff;
+          border-radius: 50%;
+          margin: 5px;
+          padding: 6px;
+          font-size: 12px;
+        }
+        .string {
+          font-size: 20px;
+          color: #04004d;
+        }
+      }
+    }
+  }
+}
